@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcuHE.a CMakeFiles/cuHE.dir/cuhe/Parameters.cu.o CMakeFiles/cuHE.dir/cuhe/DeviceManager.cu.o CMakeFiles/cuHE.dir/cuhe/Base.cu.o CMakeFiles/cuHE.dir/cuhe/CuHE.cu.o CMakeFiles/cuHE.dir/cuhe/Operations.cu.o CMakeFiles/cuHE.dir/cuhe/Relinearization.cu.o CMakeFiles/cuHE.dir/cuhe/Utils.cu.o
+/usr/bin/ranlib libcuHE.a

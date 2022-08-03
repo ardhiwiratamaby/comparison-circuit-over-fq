@@ -2356,7 +2356,7 @@ void Comparator::test_compare(long runs) const
       	}
       }
 
-      //encoding of slots
+      //encoding of slots 
       for (int j = 0; j < m_expansionLen; j++)
       {
           //decomposition of a digit

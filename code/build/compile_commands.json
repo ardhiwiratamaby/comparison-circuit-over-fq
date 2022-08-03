@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/home/ardhy/helib_install/helib_pack/include -I/usr/local/cuda/include -G -g -g -std=c++11 -x cu -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Parameters.cu -o CMakeFiles/cuHE.dir/cuhe/Parameters.cu.o",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Parameters.cu"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/home/ardhy/helib_install/helib_pack/include -I/usr/local/cuda/include -G -g -g -std=c++11 -x cu -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/DeviceManager.cu -o CMakeFiles/cuHE.dir/cuhe/DeviceManager.cu.o",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/DeviceManager.cu"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/home/ardhy/helib_install/helib_pack/include -I/usr/local/cuda/include -G -g -g -std=c++11 -x cu -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Base.cu -o CMakeFiles/cuHE.dir/cuhe/Base.cu.o",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Base.cu"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/home/ardhy/helib_install/helib_pack/include -I/usr/local/cuda/include -G -g -g -std=c++11 -x cu -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/CuHE.cu -o CMakeFiles/cuHE.dir/cuhe/CuHE.cu.o",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/CuHE.cu"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/home/ardhy/helib_install/helib_pack/include -I/usr/local/cuda/include -G -g -g -std=c++11 -x cu -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Operations.cu -o CMakeFiles/cuHE.dir/cuhe/Operations.cu.o",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Operations.cu"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/home/ardhy/helib_install/helib_pack/include -I/usr/local/cuda/include -G -g -g -std=c++11 -x cu -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Relinearization.cu -o CMakeFiles/cuHE.dir/cuhe/Relinearization.cu.o",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Relinearization.cu"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/home/ardhy/helib_install/helib_pack/include -I/usr/local/cuda/include -G -g -g -std=c++11 -x cu -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Utils.cu -o CMakeFiles/cuHE.dir/cuhe/Utils.cu.o",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe/Utils.cu"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/home/ardhy/helib_install/helib_pack/include -I/usr/local/cuda/include -G -g -g -std=c++11 -x cu -dc /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/compare_cuda.cu -o CMakeFiles/compare_cuda.dir/compare_cuda.cu.o",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/compare_cuda.cu"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/bin/g++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/usr/local/cuda/include -isystem /home/ardhy/helib_install/helib_pack/include -g -g -std=c++1z -o CMakeFiles/comparison_circuit.dir/comparison_circuit.cpp.o -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/comparison_circuit.cpp",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/comparison_circuit.cpp"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/bin/g++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/usr/local/cuda/include -isystem /home/ardhy/helib_install/helib_pack/include -g -g -std=c++1z -o CMakeFiles/comparison_circuit.dir/comparator.cpp.o -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/comparator.cpp",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/comparator.cpp"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/bin/g++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/usr/local/cuda/include -isystem /home/ardhy/helib_install/helib_pack/include -g -g -std=c++1z -o CMakeFiles/comparison_circuit.dir/tools.cpp.o -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/tools.cpp",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/tools.cpp"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/bin/g++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/usr/local/cuda/include -isystem /home/ardhy/helib_install/helib_pack/include -g -g -std=c++1z -o CMakeFiles/sorting_circuit.dir/sorting_circuit.cpp.o -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/sorting_circuit.cpp",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/sorting_circuit.cpp"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/bin/g++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/usr/local/cuda/include -isystem /home/ardhy/helib_install/helib_pack/include -g -g -std=c++1z -o CMakeFiles/sorting_circuit.dir/comparator.cpp.o -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/comparator.cpp",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/comparator.cpp"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/bin/g++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/usr/local/cuda/include -isystem /home/ardhy/helib_install/helib_pack/include -g -g -std=c++1z -o CMakeFiles/sorting_circuit.dir/tools.cpp.o -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/tools.cpp",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/tools.cpp"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/bin/g++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/usr/local/cuda/include -isystem /home/ardhy/helib_install/helib_pack/include -g -g -std=c++1z -o CMakeFiles/min_max_circuit.dir/min_max_circuit.cpp.o -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/min_max_circuit.cpp",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/min_max_circuit.cpp"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/bin/g++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/usr/local/cuda/include -isystem /home/ardhy/helib_install/helib_pack/include -g -g -std=c++1z -o CMakeFiles/min_max_circuit.dir/comparator.cpp.o -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/comparator.cpp",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/comparator.cpp"
+},
+{
+  "directory": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build",
+  "command": "/usr/bin/g++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/cuhe -I/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code -I/usr/local/cuda/include -isystem /home/ardhy/helib_install/helib_pack/include -g -g -std=c++1z -o CMakeFiles/min_max_circuit.dir/tools.cpp.o -c /home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/tools.cpp",
+  "file": "/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/tools.cpp"
+}
+]

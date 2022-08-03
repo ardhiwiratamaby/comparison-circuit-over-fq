@@ -40,6 +40,8 @@ using namespace he_cmp;
 // 7 1 300 90 1 6 10 y
 // 17 1 145 120 1 7 10 y
 int main(int argc, char *argv[]) {
+
+
   if(argc < 9)
   {
    throw invalid_argument("There should be exactly 8 arguments\n");

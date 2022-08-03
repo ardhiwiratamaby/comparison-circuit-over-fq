@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcompare_cuda.a CMakeFiles/compare_cuda.dir/compare_cuda.cu.o
+/usr/bin/ranlib libcompare_cuda.a

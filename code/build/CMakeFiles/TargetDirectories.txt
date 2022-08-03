@@ -1,0 +1,7 @@
+/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build/CMakeFiles/cuHE.dir
+/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build/CMakeFiles/compare_cuda.dir
+/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build/CMakeFiles/comparison_circuit.dir
+/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build/CMakeFiles/sorting_circuit.dir
+/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build/CMakeFiles/min_max_circuit.dir
+/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build/CMakeFiles/edit_cache.dir
+/home/ardhy/Documents/research/new_project/bgv-comparison/comparison-circuit-over-fq/code/build/CMakeFiles/rebuild_cache.dir
