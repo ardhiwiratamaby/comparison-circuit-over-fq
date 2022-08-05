@@ -171,6 +171,41 @@ void cXor(CuCtxt& out, CuCtxt& in0, CuCtxt& in1, cudaStream_t st) {
 		terminate();
 	}
 }
+
+void cXor(CuPtxt& out, CuPtxt& in0, CuPtxt& in1, cudaStream_t st) {
+	if (in0.device() != in1.device()) {
+		cout<<"Error: Addition of different devices!"<<endl;
+		terminate();
+	}
+	if (in0.logq() != in1.logq()) {
+		cout<<"Error: Addition of different levels!"<<endl;
+		terminate();
+	}
+	if (in0.domain() == 2 && in1.domain() == 2) {
+		if (&out != &in0) {
+			out.reset();
+			// out.setLevel(in0.level(), 2, in0.device(), st);
+		}
+		CSC(cudaSetDevice(out.device()));
+		crtAdd(out.cRep(), in0.cRep(), in1.cRep(), out.logq(), out.device(), st);
+		CSC(cudaStreamSynchronize(st));
+	}
+	else if (in0.domain() == 3 && in1.domain() == 3) {
+		if (&out != &in0) {
+			// out.reset();
+			// out.setLevel(in0.level(), 3, in0.device(), st);
+			// out.isProd(in0.isProd()||in1.isProd());
+		}
+		CSC(cudaSetDevice(out.device()));
+		nttAdd(out.nRep(), in0.nRep(), in1.nRep(), out.logq(), out.device(), st);
+		CSC(cudaStreamSynchronize(st));
+	}
+	else {
+		cout<<"Error: Addition of non-CRT-nor-NTT domain!"<<endl;
+		terminate();
+	}
+}
+
 void cXor(CuCtxt& out, CuCtxt& in0, CuPtxt& in1, cudaStream_t st) {
 	if (in0.device() != in1.device()) {
 		cout<<"Error: Addition of different devices!"<<endl;

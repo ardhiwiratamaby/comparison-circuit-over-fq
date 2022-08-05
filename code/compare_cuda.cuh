@@ -17,4 +17,4 @@ void init_matrix(int *a, int n);
 
 __global__ void sayHi();
 
-int compare_cuda();
+int compare_cuda(NTL::ZZX& c1, NTL::ZZX& c2);

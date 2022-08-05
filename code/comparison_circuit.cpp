@@ -26,12 +26,8 @@ using namespace NTL;
 using namespace helib;
 using namespace he_cmp;
 
-
-
-
-
 void myCode(){
-  /*  Example of BGV scheme  */
+    /*  Example of BGV scheme  */
 
   // Plaintext prime modulus
   unsigned long p = 7;
@@ -135,8 +131,9 @@ void myCode(){
   temp0 = temp0 + temp0;
   temp1 = temp1 + temp1;
 
-  sayHi<<<3, 3>>>();
+  // sayHi<<<3, 3>>>();
 
+  compare_cuda(temp0, temp1);
 
   // SetCoeff(temp, 0, 100);
   // cout<<"temp :"<<temp<<endl;
@@ -147,10 +144,6 @@ void myCode(){
   DoubleCRT tempDCRT1 = DoubleCRT(temp1,context, parts[1].getIndexSet());
   CtxtPart tempCtxtPart1 = CtxtPart(tempDCRT1, parts[1].skHandle);
 
-  bool compare=true;
-  if(tempCtxtPart1!=parts[1])
-    compare = false;
-  cout<<"compare "<<compare<<endl;
   ctxt.setPart(tempCtxtPart1, 1);
 
 #endif
@@ -232,6 +225,7 @@ void myCode(){
   // Should be [2] [2] [2] ... [2] [2]
   std::cout << "Decrypted Result: " << new_plaintext_result << std::endl;
 #endif
+
 }
 
 // the main function that takes 7 arguments (type in Terminal: ./comparison_circuit argv[1] argv[2] argv[3] argv[4] argv[5] argv[6] argv[7] argv[8])
@@ -255,7 +249,6 @@ int main(int argc, char *argv[]) {
    throw invalid_argument("There should be exactly 8 arguments\n");
   }
 
-  myCode();
 
 #if 0
   CircuitType type = UNI;
@@ -360,7 +353,7 @@ int main(int argc, char *argv[]) {
   comparator.test_compare(runs);
 #endif
 
-  compare_cuda();
+  myCode();
 
   //printAllTimers(cout);
 

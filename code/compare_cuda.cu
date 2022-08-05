@@ -6,6 +6,10 @@
 #include <math.h>
 #include "cuhe/CuHE.h"
 using namespace cuHE;
+#include <iostream>
+#include <time.h>
+#include <random>
+
 
 __global__ void sayHi(){
     printf("==kernel code== Hi there, this is Ardhi\n");
@@ -13,12 +17,10 @@ __global__ void sayHi(){
 
 
 
-int compare_cuda() {
+int compare_cuda(NTL::ZZX& c1, NTL::ZZX& c2) {
 cout<<"inside compare cuda\n";
- 
 
-
-#if 0
+#if 1
 ZZX a,b, c; //NTL Lib
 
 //set polynomial a to x^2 + 3x + 1
@@ -58,7 +60,8 @@ cu_a->x2n();
 cu_b->x2n();
 cu_c->x2n();
 #endif
-// cXor(*cu_c, *cu_a, *cu_b); // use cXor
+
+cXor(*cu_c, *cu_a, *cu_b); // use cXor
 
 // cu_c->x2z();
 // ZZX result = cu_c->zRep();
